@@ -9,15 +9,17 @@
 		<a-scene embedded arjs>
 			<a-marker preset="hiro">
 			<!-- create your AR content here -->
-			<a-torus 
-        position="0 0.5 0"
-        rotation="-90 0 0"
-        color="#FF3C00"
-           arc="360"
-        radius="5"
-        radius-tubular="1">
-     
-    </a-torus>
+			 <a-box
+		color="red"
+		height="2"
+		width="2"
+		depth="2"
+		position="-1.5 -1 -10"
+		rotation="0 45 0">
+		</a-box>
+		<a-sphere color="yellow" radius="2" position="-1.5 1 -10"></a-sphere>
+
+		<a-cone color="red" radius-bottom="1" radius-top="0" position="-1.5 2 -10"></a-cone>
 			
 			</a-marker>
 
