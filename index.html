@@ -10,42 +10,47 @@
 			<
 <a-marker type="pattern" url="https://raw.githubusercontent.com/mrt1mmy/ar/refs/heads/main/pattern-New%20Project(1).patt?scrlybrkr=933cdbd9">>
 			<!-- create your AR content here -->
-			 <a-box
-          color="red"
-          height="2"
-          width="2"
-          depth="2"
-          position="-1.5 -1.5 0"
-          rotation="0 0 45"
-        >
-        </a-box>
-		<a-box
-          color="cyan"
-          height="2"
-          width="2"
-          depth="2"
-          position="-3 -1.5 2"
-          rotation="0 0 45"
-        >
-        </a-box>
-		<a-box
-          color="blue"
-          height="2"
-          width="2"
-          depth="2"
-          position="0 -1.5 2"
-          rotation="0 0 45"
-        >
-        </a-box>
-        <a-cylinder color="green" radius="0.5" height="2" position="-1.5 -1.5 -2" rotation="90 0 0"></a-cylinder>
-        <a-cone
-          color="red"
-          radius-bottom="1"
-          radius-top="0"
-          height="2"
-          position="-1.5 -1.5 -4"
-		  rotation="-90 0 0"
-        ></a-cone>
+			 
+      <a-text
+        value="Welcome to the Expo!"
+        color="#FFD700"
+        position="0 1.5 -3"
+        align="center"
+        width="4"
+      >
+        
+      </a-text>
+
+  
+      <a-box
+        color="#4CC3D9"
+        position="-1 0.5 -5"
+        rotation="0 45 0"
+        scale="1 1 1"
+animation="property: position; to: 1 8 -10; dur: 2000; easing: linear; loop: true"     
+	 >
+      
+      </a-box>
+
+      <a-sphere
+        color="green"
+         position="1 0.5 -5"
+        radius="0.7"
+		
+        color="green"
+        animation="
+          property: color; 
+          from: red;
+		  to: #FFAAAA;
+          dur: 2000; 
+          dir: alternate; 
+          loop: true"
+         
+       
+      >
+       
+        
+      </a-sphere>
 
 			
 			</a-marker>
